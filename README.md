@@ -1,6 +1,6 @@
 # ACIT4420_File_Organizer
 
-This project is part of an assignement in the course ACIT4420. **ACIT4420_File_Organizer** is a tool that will automatically sort all files in a specified directory based on their file extension. To use the program simply move around the files in the "Files" directory. The files can be in any of the subdirectories or in the **Files** directoty. It's also possible to delete some of the subdirectories, or create new file types.
+This project is part of an assignement in the course ACIT4420. **ACIT4420_File_Organizer** is a tool that will automatically sort all files in a specified directory based on their file extension. To use the program simply move around the files in the "Files" directory. The files can be in any of the subdirectories or in the **Files** directory. It's also possible to delete some of the subdirectories, or create new file types.
 
 ## Table of Contents
 - [Features](#features)
