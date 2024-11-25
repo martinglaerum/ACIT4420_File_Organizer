@@ -39,7 +39,7 @@ Choosing **Sort Files** will automatically sort the files in the **Files** folde
 ## Project Structure
 Here is a brief overview of the project's structure:
 ```
-ACIT4420_Message_Sender/
+ACIT4420_File_Organizer/
 │
 ├── file_organizer/
 │   ├── __init__.py
