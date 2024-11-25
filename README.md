@@ -11,6 +11,7 @@ This project is part of an assignement in the course ACIT4420. **ACIT4420_File_O
 ## Features
 - Sorts existing files into corresponding folders
 - Creates new folders if needed
+- Prints the file structure before and after it has sorted the files
 ## Installation
 To get started, follow these steps:
 1. **Clone the Repository** (or download the package):
