@@ -25,18 +25,21 @@ def main():
         # Sorts all the files in to the correct folders
     if(choice == "sort"):
         BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-        base_path = os.path.join(BASE_DIR, "Files") 
+        base_path = os.path.join(BASE_DIR, "Files")
+
         print("---- File structure before sorting ----")
         print("files/")
-        file_structure.print_directory_structure(base_path, indent="│   ")
+        file_structure.print_structure(base_path, indent="│   ")
+            
             # Finds all files and folders and their path
         folders, files = find_files_and_folder.main()
             # Moves all the files
         for item in files:
             move_files.move(folders, item)
+                
         print("\n\n---- File structure after sorting ----")
         print("files/")
-        file_structure.print_directory_structure(base_path, indent="│   ")
+        file_structure.print_structure(base_path, indent="│   ")
 
 if __name__ == '__main__':
     main()
