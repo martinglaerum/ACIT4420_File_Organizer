@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="ACIT_Exam_Task2",  # The package name
+    name="ACIT4420_File_Organizer",  # The package name
     version="0.1",
     packages=find_packages(),  # Automatically find all packages in your project
     include_package_data=True,  # Include non-Python files specified in MANIFEST.in (if any)
