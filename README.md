@@ -1,6 +1,6 @@
 # ACIT4420_File_Organizer
 
-This project is part of an assignement in the course ACIT4420. **ACIT4420_Message_Sender** is a tool that will automatically sort all files in a specified directory based on their file extension. 
+This project is part of an assignement in the course ACIT4420. **ACIT4420_Message_Sender** is a tool that will automatically sort all files in a specified directory based on their file extension. To use the program simply move around the files in the "Files" directory. Files can be in any of the subdirectories or in the Files direcroty. It's also possible to delete some of the subdricertories, or create new file types.
 
 ## Table of Contents
 - [Features](#features)
