@@ -58,5 +58,5 @@ ACIT4420_File_Organizer/
 - **`setup.py`**: Script for installing the package.
 - **`find_files_and_folder.py`**: Finds all files and folders
 - **`move_files.py`**: Moves all files to the correct folder
-- **`file_structure.py`**: Prints the filestructure in the **Files** folder
+- **`file_structure.py`**: Prints the file structure in the **Files** folder
 - **`Files`**: Folder containing alle the unsorted files and folders
