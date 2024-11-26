@@ -13,7 +13,7 @@ def main():
 
         # Introduction to the program
     print("This module includes some folders and some diffrent file types.")
-    print("These files are positioned in completely random folders, and one of the file types don't have a folde to move to")
+    print("These files are positioned in completely random folders, and one of the file types don't have a folder to move to")
     print(f'To sort these files into their appropiate folders, enter "sort"')
     print(f'To exit the program, enter "exit".\n')
     while True:
