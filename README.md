@@ -47,6 +47,7 @@ ACIT4420_File_Organizer/
 │   ├── main.py                # Entry point for the program
 │   ├── find_files_and_folder.py
 │   ├── move_files.py
+│   ├── Files
 │
 ├── setup.py                   # Installation script
 └── README.md                  # Project documentation (this file)
@@ -56,3 +57,4 @@ ACIT4420_File_Organizer/
 - **`setup.py`**: Script for installing the package.
 - **`find_files_and_folder.py`**: Finds all files and folders
 - **`move_files.py`**: Moves all files to the correct folder
+- - **`Files`**: Folder containing alle the unsorted files and folders
