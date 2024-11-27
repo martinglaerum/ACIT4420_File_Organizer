@@ -24,8 +24,8 @@ def main():
 
         # Sorts all the files in to the correct folders
     if(choice == "sort"):
-        BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-        base_path = os.path.join(BASE_DIR, "Files")
+        current_dir = os.path.dirname(os.path.abspath(__file__))
+        base_path = os.path.join(current_dir, "Files")
 
         print("---- File structure before sorting ----")
         print("files/")
