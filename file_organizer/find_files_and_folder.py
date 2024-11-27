@@ -1,4 +1,3 @@
-import move_files
 import os
 import re
 
@@ -27,10 +26,8 @@ def find_files(folder):
 
 def main():
         # Find path of "Files"
-    BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-    base_path = os.path.join(BASE_DIR, "Files") 
-
-    
+    current_dir = os.path.dirname(os.path.abspath(__file__))
+    base_path = os.path.join(current_dir, "Files") 
 
     try:
             # List the content of "Files"
@@ -43,14 +40,14 @@ def main():
         return [] 
 
         # Regex pattern to seperate folders from files
-    file_pattern = re.compile(r"^.+\.[a-zA-Z0-9]+$")
+    pattern = re.compile(r"^.+\.[a-zA-Z0-9]+$")
 
     files = []
     folders = []
 
         # Store all files and folders
     for item in contents:
-        if file_pattern.match(item):  # Match the regex pattern
+        if pattern.match(item):  # Match the regex pattern
             file_path = os.path.join(base_path, item) # Path to the file
             file_info = {
                 "name": item,
