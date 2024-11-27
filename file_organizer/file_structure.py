@@ -2,14 +2,13 @@ import os
 
     # Prints the directory structure of "Files"
 def print_structure(path, indent=""):
-    items = os.listdir(path)
-    items.sort()
+    content = os.listdir(path)
+    content.sort()
 
-    for index, item in enumerate(items):
+    for index, item in enumerate(content):
         item_path = os.path.join(path, item)
-        is_last = index == len(items) - 1
+        is_last = index == len(content) - 1
 
-            # Use '└──' for the last item, '├──' for others
         prefix = "└── " if is_last else "├── "
 
         if os.path.isdir(item_path):
