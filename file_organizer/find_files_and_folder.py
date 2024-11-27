@@ -34,10 +34,10 @@ def main():
         contents = os.listdir(base_path)
     except FileNotFoundError: # "Files" folder doesn't exist
         print(f'Error: The "Files" folder does not exist.')
-        return [] 
+        return ([], []) 
     except PermissionError: # Can't access the "Files" folder
         print(f'Error: Permission denied when accessing the "Files" folder: {base_path}')
-        return [] 
+        return ([], [])
 
         # Regex pattern to seperate folders from files
     pattern = re.compile(r"^.+\.[a-zA-Z0-9]+$")
