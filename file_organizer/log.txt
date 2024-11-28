@@ -1,0 +1,13 @@
+Time: 2024-11-28 13:36:17.706180: The file newfile.txt was moved to the folder txt
+Time: 2024-11-28 13:36:17.706970: The file picture1.jpg was moved to the folder jpg
+Time: 2024-11-28 13:37:41.715595: The file picture3.jpg was moved to the folder jpg
+Time: 2024-11-28 13:37:59.444131: The file picture3.jpg was moved to the folder jpg
+Time: 2024-11-28 13:39:11.750666: The file picture3.jpg was moved to the folder jpg
+Time: 2024-11-28 13:39:11.750666: The file word.docx was moved to the folder docx
+Time: 2024-11-28 13:40:06.355961: The file picture3.jpg was moved to the folder jpg
+Time: 2024-11-28 13:40:46.485826: The file picture3.jpg was moved to the folder jpg
+--- 
+Time: 2024-11-28 13:41:56.300865: The file newfile.txt was moved to the folder txt
+Time: 2024-11-28 13:41:56.301918: The file textfile.txt was moved to the folder txt
+Time: 2024-11-28 13:41:56.302926: The file word.docx was moved to the folder docx
+Time: 2024-11-28 13:43:49: The file picture3.jpg was moved to the folder jpg
