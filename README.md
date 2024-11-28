@@ -48,6 +48,8 @@ ACIT4420_File_Organizer/
 │   ├── find_files_and_folder.py
 │   ├── move_files.py
 │   ├── file_structure.py
+│   ├── logger.py
+│   ├── log.txt
 │   ├── Files
 │
 ├── setup.py                   # Installation script
@@ -59,4 +61,5 @@ ACIT4420_File_Organizer/
 - **`find_files_and_folder.py`**: Finds all files and folders
 - **`move_files.py`**: Moves all files to the correct folder
 - **`file_structure.py`**: Prints the file structure in the **Files** folder
+- **`logger.py`**: Logs information when files are moved
 - **`Files`**: Folder containing alle the unsorted files and folders
